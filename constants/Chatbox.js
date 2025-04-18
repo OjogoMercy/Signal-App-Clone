@@ -1,6 +1,7 @@
 import { Text, SafeAreaView, StyleSheet,Image,View } from 'react-native';
 import React from 'react'
 import styles from './styles';
+import ChatRooms from '@/components/ChatR/ChatRooms';
 
 const Chatbox = () => {
   return (
@@ -13,7 +14,7 @@ const Chatbox = () => {
         <Text style={styles.name}>Name</Text>
         <Text style={styles.message}>Time</Text>
       </View>
-     <Text numberOfLines={1}  style={styles.message}>Notification messages in the chatbox vewcgeveeve</Text>
+     <Text numberOfLines={1}  style={styles.message}>chats betweeygeueewnchtebcjdcyicndd gucuecclbuygygebeuguegyegy</Text>
      </View>
      </View>
     </SafeAreaView>
@@ -21,5 +22,3 @@ const Chatbox = () => {
 }
 
 export default Chatbox
-
-const styles = StyleSheet.create({})

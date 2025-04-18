@@ -4,7 +4,7 @@ const styles = StyleSheet.create({
       container: {
         flex: 1,
         backgroundColor: '#fff',
-        padding: 15,
+        padding:10,
       },
       contain:{
         flexDirection:'row',
@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
         flexDirection:'row',
         alignItems:'center',
         justifyContent:'space-between',
-        marginBottom:10
+        marginBottom:10,
       },
       name:{
         fontSize:18,
@@ -49,7 +49,8 @@ const styles = StyleSheet.create({
         opacity:0.5
       },
       box:{
-        marginLeft:15
+        marginLeft:15,
+        width:'70%',
       },
 });
 export default styles
