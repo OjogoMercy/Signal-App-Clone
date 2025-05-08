@@ -1,4 +1,4 @@
-export default [{
+const ChatRooms = [{
   id: '1',
   users: [{
     id: 'u1',
@@ -143,3 +143,4 @@ export default [{
     createdAt: '2020-09-25T15:40:00.000Z',
   },
 }]
+export default ChatRooms;

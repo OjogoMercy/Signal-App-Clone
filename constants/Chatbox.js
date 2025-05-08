@@ -3,7 +3,8 @@ import React from 'react'
 import styles from './styles';
 import ChatRooms from '@/components/ChatR/ChatRooms';
 
-const Chatbox = () => {
+const Chatbox = (props) => {
+  console.log(props);
   return (
     <SafeAreaView style={styles.container}>
      <View style={styles.contain}>
