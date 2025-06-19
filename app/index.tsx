@@ -9,7 +9,7 @@ const ChatRoom2 = ChatRooms[1]
 
 const index = () => {
   return (
-    <View style={{flex:1}}>
+    <View>
    <Chatbox ChatRoom = {Chatroom1}/>
    <Chatbox ChatRoom = {ChatRoom2}/>
     </View>
